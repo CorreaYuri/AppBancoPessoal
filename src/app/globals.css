@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+
+@layer components {  .typography {    color: var(--color-gray-950);    
+    a {      color: var(--color-blue-500);
+          &:hover {        
+            color: var(--color-blue-800);      }    }  }}
+
+
+
+
+*{
+/*Cores*/
+    --colorRed: #4B0402;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --cinza: #F5F5F5;
+    --background: linear-gradient(90deg, rgba(181, 0, 0, 1) 0%, rgba(159, 24, 24, 1) 26%, rgba(79, 0, 0, 1) 81%);
+
+}
+
+.mains{
+    background-color: var(--colorRed);
+    height: 100vh;
+}
+.btnLogin{
+    background-color: var(--background);
+    width: 500px;
+}
+.mainPageInfoLogin{
+    background-color: #4B0402;   
+}
+
